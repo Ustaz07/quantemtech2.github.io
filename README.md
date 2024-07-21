@@ -1,90 +1,116 @@
-# Education
+# The Hacker theme
 
-**Bachelor’s of Science, Computer Science, Minor in Mathematics**  
-Seattle University (Graduated Winter 2024)  
-*Relevant Coursework:* Data Structures, Design and Analysis of Algorithms, Cloud Computing, Technical Communications and Project Management, Software Testing and Debugging
+[![.github/workflows/ci.yaml](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
 
-**Associate in Arts and Sciences - AAS-DTA**  
-Bellevue College (Spring 2021)  
-*Enrolled as high school student through the Running Start Program*
+*Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
 
-# Work Experience
+![Thumbnail of Hacker](thumbnail.png)
 
-**Coding with Kids**  
-*Operations Coordinator (June 2024 – Present)*
+## Usage
 
-**Panthera**  
-*Software Engineer Intern (September 2022 – June 2023)*
-- Worked in a team of four as an intern software engineer for year-long Capstone project.
-- Developed image processing library to optimize data for machine learning models.
-- Organized weekly meetings with team Sponsor and Advisor.
+To use the Hacker theme:
 
-# Leadership Experience
+1. Add the following to your site's `_config.yml`:
 
-**The Brotherhood of Chi Theta Psi**
+    ```yml
+    remote_theme: pages-themes/hacker@v0.2.0
+    plugins:
+    - jekyll-remote-theme # add this line to the plugins list if you already have one
+    ```
 
-*Alumni Chair (June 2024 – Present)*
-- Acted as the point of contact between Alumni and the Active Brothers alongside another co-chair.
-- Coordinated and Facilitated quarterly mixers and events with Alumni Brothers.
-- Consistently kept 50+ Alumni Brothers informed and up-to-date on the Active House's doings.
+2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
-*Secretary and Executive Board (May 2023 – May 2024)*
-- Wrote & distributed minutes for weekly board meetings.
-- Maintained roster of 80+ active and alumni members.
-- Organized and managed Brotherhood Google Drive, Google Calendar, Google Contacts, and LinkedIn.
-- Led various committees with other members to produce large-scale events including a cultural show and our annual banquet.
+    ```ruby
+    gem "github-pages", group: :jekyll_plugins
+    ```
 
-*New Member Educator (May 2023 - March 2024)*
-- Responsible for designing and executing an 8-week educational program.
-- Educated 9 new members alongside a partner during Winter Quarter.
-- Led informational meetings twice a week across two campuses.
-- Instructed and instilled Filipino history, morals, and values.
-- Planned logistics of weekly workshops and events.
-- Maintained 100% retention rate throughout the process.
+## Customizing
 
-*Philanthropy Chair (August 2022 – May 2023)*
-- Raised awareness of our philanthropy (cardiovascular disease and strokes) through events and social media.
-- Collaborated with the UW Filipinx Association for Health Careers (FAHC) to host an educational workshop.
-- Organized blood drive w/ Bloodworks NW in support of cardiovascular disease awareness.
-- Promoted and Educated students about Filipino culture.
-- Collaborated with SU United Filipino Club (UFC) to host a cultural-based social event.
+### Configuration variables
 
-**Northwest Filipino American Student Alliance (NWFASA)**  
-*Advisory Board Member (May 2024 – Present)*
+Hacker will respect the following variables, if set in your site's `_config.yml`:
 
-**Seattle University's United Filipino Club (UFC)**
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
 
-*Affiliate Relations Officer (May 2023 – May 2024)*
-- Acted as the point of contact between UFC and both the Northwest Fil-Am Student Alliance (NWFASA) and Kabataan Alliance (KA).
-- Attended NWFASA and KA meetings monthly and relayed information to UFC.
-- Collaborated with UW Filipino American Student Association (FASA sa UW) and the Filipino American National Historical Society (FANHS National) to organize a cultural showcase and panel.
-- Organized social and educational events with Filipinx student- and youth-led orgs across the PNW.
+Additionally, you may choose to set the following optional variables:
 
-*Fundraising Chair (May 2022 – May 2023)*
-- Created fundraisers and social events to provide revenue.
-- Connected with local businesses like Chipotle and Drip Tea to raise funds.
-- Hosted quarterly general meetings to promote Filipino culture.
+```yml
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
 
-*Performer and Cultural Dancer*
-- Performed at three of UFC's annual flagship cultural event Barrio Fiesta.
+### Stylesheet
 
-**30th Annual Barrio Fiesta (Winter 2024)**
-- Emceed the 500+ attended event with another host.
-- Performed three dances including the traditional Filipino dances Sayaw Sa Bangko and Sakuting, and a modern hip-hop dance.
-- Performed as a main character in the skit.
+If you'd like to add your own custom styles:
 
-**29th Annual Barrio Fiesta (Winter 2023)**
-- Recruited volunteers from UFC and other on- and off-campus communities as the Network and Outreach Chair.
-- Emceed the 400+ attended event with another host.
-- Performed two dances including the traditional Filipino dance Cariñosa and a modern hip-hop dance.
-- Performed as a main character in the skit.
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+    ```scss
+    ---
+    ---
 
-**28th Annual Barrio Fiesta (Spring 2022)**
-- Organized the gathering of financial and inventory donations from UFC alumni, families, and local businesses as the Donations Chair.
-- Performed a modernized version of the traditional Filipino dance Tinikling.
+    @import "{{ site.theme }}";
+    ```
+3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
-# Skills and Hobbies
+*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
-**Skills:** Programming, C/C++, Java, C#, Python, Emceeing, Copywriting & Content Writing, Team Leadership
+### Layouts
 
-**Hobbies and Interests:** Boxing, Filipino Culture and Issues, Mexican Culture and Issues
+If you'd like to change the theme's HTML layout:
+
+1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/hacker/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html).
+2. For more extensive changes, [copy the original template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+3. Create a file called `/_layouts/default.html` in your site
+4. Paste the default layout content copied in the first step
+5. Customize the layout as you'd like
+
+### Customizing Google Analytics code
+
+Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
+
+### Overriding GitHub-generated URLs
+
+Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+
+1. Look at [the template source](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
+    ```yml
+    github:
+      zip_url: http://example.com/download.zip
+      another_url: another value
+    ```
+3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+
+*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+
+For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
+
+## Roadmap
+
+See the [open issues](https://github.com/pages-themes/hacker/issues) for a list of proposed features (and known issues).
+
+## Project philosophy
+
+The Hacker theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+
+## Contributing
+
+Interested in contributing to Hacker? We'd love your help. Hacker is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+
+### Previewing the theme locally
+
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
+
+1. Clone down the theme's repository (`git clone https://github.com/pages-themes/hacker`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+
+### Running tests
+
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
