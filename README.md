@@ -1,5 +1,7 @@
 # Shamsuddeen Abdullahi
 
+![img](https://github.com/user-attachments/assets/1a219996-31b6-4e61-b90b-511c617d2a43)
+
 **Software Developer**  
 [shamsutukor@gmail.com](mailto:shamsutukor@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/shamsuddeen-abdullahi-404377373/)
