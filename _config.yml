@@ -3,9 +3,9 @@ plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - github-pages
 
-title: "The title of your site"
-description: "A short description of your site's purpose"
-show_downloads: false # true or false, without quotes
+title: "eduvault landing page"
+description: "A landing page for an eduvault software"
+show_downloads: true # or false, without quotes
 google_analytics: "Your Google Analytics tracking ID"
 
 
