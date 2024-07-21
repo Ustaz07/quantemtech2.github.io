@@ -63,3 +63,80 @@ To get started with EduVault, follow these steps:
 
    ```bash
    git clone https://github.com/ustaz07/edu-vault.git
+   
+## Dashboard Overview
+
+The EduVault Dashboard provides a comprehensive interface for managing lecture notes, user profiles, and notifications. It features the following components:
+
+- **User Profile**: Displays user information and allows profile edits.
+- **Upload Section**: Form for uploading new lecture notes, including fields for title, description, category, and tags.
+- **My Notes**: List and management options for the user's own uploaded notes, including edit and delete functions.
+- **Shared Notes**: Section to view and download lecture notes shared by other users.
+- **Search Bar**: Allows users to search for notes by title, category, or tags.
+- **Notifications**: Real-time updates on new uploads, comments, and changes.
+- **Statistics**: Overview of user activity including uploads, downloads, and ratings.
+- **Comments and Feedback**: View and reply to comments on the user’s notes.
+- **Help and Support**: Access to FAQs, support contact forms, and community forums.
+
+## Technologies Used
+
+- **Languages**: 
+  - PHP (Procedural)
+  - JavaScript
+- **Frontend**: 
+  - HTML
+  - CSS
+  - Bootstrap
+  - jQuery
+- **Backend**: 
+  - MySQL
+- **Server**: 
+  - Nginx
+- **Hosting**: 
+  - DigitalOcean
+- **Resources**: 
+  - [W3Schools](https://www.w3schools.com)
+  - [TutorialsPoint](https://www.tutorialspoint.com)
+
+## Contributing
+
+We welcome contributions to EduVault! To contribute:
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of the repository page.
+2. **Clone Your Fork**: 
+    ```bash
+    git clone https://github.com/yourusername/eduvault.git
+    ```
+3. **Create a New Branch**: 
+    ```bash
+    git checkout -b feature-branch
+    ```
+4. **Make Changes**: Implement your changes and test thoroughly.
+5. **Commit Changes**: 
+    ```bash
+    git commit -am 'Add new feature'
+    ```
+6. **Push Changes**: 
+    ```bash
+    git push origin feature-branch
+    ```
+7. **Submit a Pull Request**: Go to the original repository and submit a pull request from your fork.
+
+Please ensure that your code adheres to the project's coding standards and includes appropriate documentation.
+
+## License
+
+EduVault is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries or support related to EduVault, please reach out to us:
+
+- **Email**: support@eduvault.com
+- **GitHub Issues**: [Report Issues](https://github.com/ustaz07/eduvault/issues)
+
+Feel free to open an issue or submit a pull request if you have any questions, suggestions, or improvements!
+
+---
+
+Thank you for using and contributing to EduVault. We appreciate your support!
