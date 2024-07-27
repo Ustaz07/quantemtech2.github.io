@@ -1,6 +1,5 @@
 # Shamsuddeen Abdullahi
-
-![img](https://github.com/user-attachments/assets/1a219996-31b6-4e61-b90b-511c617d2a43)
+![passport](https://github.com/user-attachments/assets/86289af7-0ca9-474d-840b-838f3f633898)
 
 **Software Developer**  
 [shamsutukor@gmail.com](mailto:shamsutukor@gmail.com)  
