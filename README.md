@@ -1,6 +1,6 @@
 # Shamsuddeen Abdullahi
 
-![passport](https://github.com/user-attachments/assets/86289af7-0ca9-474d-840b-838f3f633898)
+![EduVault image](https://github.com/user-attachments/assets/a9de5f7c-b59b-4a1e-9dff-d939d70a83f1)
 
 **Software Developer**  
 [shamsutukor@gmail.com](mailto:shamsutukor@gmail.com)  
