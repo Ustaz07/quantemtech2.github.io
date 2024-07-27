@@ -29,56 +29,34 @@ Welcome to EduVault! EduVault is a platform designed for sharing, managing, and 
 ## Introduction
 
 EduVault aims to streamline the process of managing and sharing lecture notes by providing a centralized platform that simplifies access to educational resources. The platform offers robust features for both uploading and retrieving documents, enhancing collaboration and learning.
-
+   
 ## Features
 
+The features include the following components:
+
 - **User Authentication**: Secure login and registration process with password recovery options.
+
+![edu1](https://github.com/user-attachments/assets/8c0a9b7e-8026-4413-beb0-fddbfab17b88)
+
+ 
 - **Dashboard**: Personalized dashboard with access to uploaded notes, shared notes, and notifications.
+
+![edu2](https://github.com/user-attachments/assets/d0d3af8c-8c28-4fff-b49a-658b44c6228b)
+
+
 - **Upload Section**: Easy-to-use interface for uploading lecture notes with categorization and tagging.
-- **Search Functionality**: Powerful search and filter options to quickly find specific notes.
-- **Notifications**: Real-time updates on new uploads and comments.
-- **Admin Panel**: Comprehensive management tools for administrators to oversee user activity and content.
-- **Comments and Ratings**: Users can comment on and rate lecture notes to provide feedback.
 
-**Technologies Used:**
-- PHP, MySQL and Javascript
-  
-## Skills
+![edu3](https://github.com/user-attachments/assets/cecda66d-ebbe-4aa1-bdf4-713b4b6eb284)
 
-**Languages:**
-- HTML, CSS, JavaScript, PHP
-
-**Database:**
-- MySQL
-
-**Operating Systems:**
-- Linux, Windows
-
-**Other Tools:**
-- Git
-
-## Getting Started
-
-To get started with EduVault, follow these steps:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/ustaz07/edu-vault.git
-   
-## Dashboard Overview
-
-The EduVault Dashboard provides a comprehensive interface for managing lecture notes, user profiles, and notifications. It features the following components:
-
-- **User Profile**: Displays user information and allows profile edits.
-- **Upload Section**: Form for uploading new lecture notes, including fields for title, description, category, and tags.
 - **My Notes**: List and management options for the user's own uploaded notes, including edit and delete functions.
 - **Shared Notes**: Section to view and download lecture notes shared by other users.
 - **Search Bar**: Allows users to search for notes by title, category, or tags.
 - **Notifications**: Real-time updates on new uploads, comments, and changes.
 - **Statistics**: Overview of user activity including uploads, downloads, and ratings.
-- **Comments and Feedback**: View and reply to comments on the user’s notes.
 - **Help and Support**: Access to FAQs, support contact forms, and community forums.
+
+## Dashboard Overview
+The EduVault Dashboard provides a comprehensive interface for managing lecture notes, user profiles, and notifications.
 
 ## Technologies Used
 
